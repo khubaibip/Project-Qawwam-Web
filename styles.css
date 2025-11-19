@@ -181,6 +181,12 @@ header {
   text-align: center;
 }
 
+.program-list-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
 .titleprogram {
   font-family: "Luxurious Script", cursive;
   font-size: 2.5rem;
@@ -188,8 +194,10 @@ header {
 }
 
 .listprogram {
+  padding-left: 20px; /* beri ruang untuk angka */
   font-size: 1.2rem;
   font-family: "Instrument Serif", serif;
+  line-height: 1.8;
 }
 
 /* ============================
