@@ -1,0 +1,21 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="128" cy="128" r="120" fill="#000000"/>
+
+  <!-- Subtle Islamic Geometric Lines -->
+  <path d="M128 20 L236 128 L128 236 L20 128 Z" 
+        fill="none" 
+        stroke="#D4AF37" 
+        stroke-width="4" 
+        opacity="0.25"/>
+
+  <path d="M128 40 L216 128 L128 216 L40 128 Z" 
+        fill="none" 
+        stroke="#D4AF37" 
+        stroke-width="3" 
+        opacity="0.25"/>
+
+  <!-- Letter Q -->
+  <circle cx="128" cy="128" r="70" fill="none" stroke="#D4AF37" stroke-width="14"/>
+  <line x1="160" y1="160" x2="190" y2="190" stroke="#D4AF37" stroke-width="14" stroke-linecap="round"/>
+</svg>

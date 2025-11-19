@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Luxurious+Script&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+.logo {
+   font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+li {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+.hero {
+  position: relative;
+  min-height: 600px;
+  max-height: 1200px;
+  height: 800px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* taruh di belakang konten */
+  object-fit: cover;
+}
+
+.hero .content {
+  position: relative;
+  z-index: 1; /* taruh di atas video */
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+#content {
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#subheadline {
+ font-family: "Bodoni Moda SC", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: block;
+}
+
+.cta-button {
+        background-color: black;
+        color: white;
+        padding: 12px 25px;
+        font-size: 16px;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        margin-top: 40px;
+        font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+    }
+
+.usp {
+  display: flex;
+  justify-content: space-between;
+ font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.first {
+  background-color: black;
+  padding: 80px;
+  color: white;
+  }
+
+.second {
+  background-color: white;
+  padding: 80px;
+  color: black;
+}
+
+.third {
+  background-color: black;
+  padding: 80px;
+  color: white;
+}
+
+.headusp {
+  font-size: 30px;
+  font-family: "Luxurious Script", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.vm-section {
+    background-image: url(bgvisi.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: white;
+    text-align: center;
+}
+
+.vm-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.vm-title {
+    font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+    font-size: 50px;
+    margin: 40px 0 10px;
+}
+
+.vm-text {
+    font-size: 24px;
+ font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-bottom: 50px;
+}
+
+.vm-list {
+    padding-left: 40px;
+    font-size: 20px;
+    line-height: 1.8;
+   font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+    margin-bottom: 50px;
+    text-align: left;      /* opsional kalau mau bullet rata kiri */
+    display: inline-block; /* agar tetap center keseluruhan */
+}
+
+/*program */
+.program {
+  background-color: black;
+  padding: 50px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.titleprogram {
+  padding-bottom: 20px;
+  font-size: 30px;
+  font-family: "Luxurious Script", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.listprogram {
+ font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* FOOTER */
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 50px 20px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #bbb;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #fff;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+#contact {
+  scroll-margin-top: 120px;
+}
