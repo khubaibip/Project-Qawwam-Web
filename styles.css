@@ -161,6 +161,9 @@ header {
 }
 
 .vm-list {
+  font-family: "Instrument Serif", serif;
+  font-size: 1.3rem;
+  margin-bottom: 40px;
   text-align: left;
   font-size: 1.2rem;
   line-height: 1.8;
@@ -279,3 +282,4 @@ header {
     font-size: 1.8rem;
   }
 }
+
